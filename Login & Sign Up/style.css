@@ -98,7 +98,7 @@
 	cursor: pointer;
  }
 
-/*Forgot Password*/
+/*Forgot Password Form*/
  .forgot-pw {
 	color: inherit;
  }
@@ -139,10 +139,7 @@
 	color: inherit;
  }
 
-
-
-
-/*Signup form*/
+/*Register form*/
  .register {
 	color: inherit;
  }
@@ -174,3 +171,11 @@
 	text-decoration: none;
 	color: inherit;
 }
+/*Confirm New Password Form*/
+.confirm-pass-wrapper {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
