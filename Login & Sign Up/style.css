@@ -129,6 +129,18 @@
 	text-decoration: none;
 	color: inherit;
  }
+ .reset-code{
+	position: bottom;
+	align-items: center;
+	top: 0.5rem;
+	font-size: 0.9rem;
+	font-weight: 1;
+	text-decoration: none;
+	color: inherit;
+ }
+
+
+
 
 /*Signup form*/
  .register {
