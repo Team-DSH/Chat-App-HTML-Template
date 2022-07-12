@@ -1,138 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin UI</title>
-	<link rel="stylesheet" href="./css/admin.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
-</head>
-<body>
-	<div class="container">
-		<div class="sidebar">
-			<div class="userinfo">
-				<img src="images/avatar.png" class="avatar" alt="">
-				<h3 class="username">User Name</h3>
-				<!-- TODO add anchor for logout -->
-			</div>
-			<div class="contacts">
-				<div id="menu" class="menu">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin UI</title>
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="userinfo">
+          <img src="images/avatar.png" class="avatar" alt="">
+          <h3 class="username">User Name</h3>
+          <!-- TODO add anchor for logout -->
+        </div>
+        <div class="contacts">
+          <div id="menu" class="menu">
+            <button class="listItems" id="class1">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-1</a>
+              </div>
+            </button>
+            <button class="listItems" id="class2">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-2</a>
+              </div>
+            </button>
+            <button class="listItems" id="class3">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-3</a>
+              </div>
+            </button>
+            <button class="listItems" id="class4">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-4</a>
+              </div>
+            </button>
+            <button class="listItems" id="class5">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-5</a>
+              </div>
+            </button>
+            <button class="listItems" id="class6">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-6</a>
+              </div>
+            </button>
+            <button class="listItems" id="class7">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-7</a>
+              </div>
+            </button>
+            <button class="listItems" id="class8">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-8</a>
+              </div>
+            </button>
+            <button class="listItems" id="class9">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-9</a>
+              </div>
+            </button>
+            <button class="listItems" id="class10">
+              <div class="contactInfo">
+                <img src="./images/pngaaa.com-2841769.png" class="contactStatus">
+                <a class="chats" href="#">class-10</a>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <script>
+			// Get the container element
+			var btnContainer = document.getElementById("menu");
 
-						<button class="listItems"  id="class1">
-									<div class="contactInfo">
-										<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-										<a class="chats" href="#">class-1</a>
-									</div>
-						</button>
+			// Get all buttons with class="btn" inside the container
+			var btns = btnContainer.getElementsByClassName("listItems");
 
+			// Loop through the buttons and add the active class to the current/clicked button
+			for (var i = 0; i < btns.length; i++) {
+				btns[i].addEventListener("click", function () {
+					var current = document.getElementsByClassName("active");
 
+					// If there's no active class
+					if (current.length > 0) {
+						current[0].className = current[0].className.replace(" active", "");
+					}
 
-						<button class="listItems"  id="class2">
-							<div class="contactInfo">
-								<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-								<a class="chats" href="#">class-2</a>
-							</div>
-						</button>
-
-
-
-						<button class="listItems"  id="class3">
-							<div class="contactInfo">
-								<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-								<a class="chats" href="#">class-3</a>
-							</div>
-						</button>
-
-
-
-						<button class="listItems"  id="class4">
-							<div class="contactInfo">
-								<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-								<a class="chats" href="#">class-4</a>
-							</div>
-						</button>
-
-
-
-						<button class="listItems"  id="class5">
-							<div class="contactInfo">
-								<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-								<a class="chats" href="#">class-5</a>
-							</div>
-						</button>
-
-
-
-					<button class="listItems"  id="class6">
-						<div class="contactInfo">
-							<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-							<a class="chats" href="#">class-6</a>
-						</div>
-					</button>
-
-
-
-						<button class="listItems"  id="class7">
-							<div class="contactInfo">
-								<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-								<a class="chats" href="#">class-7</a>
-							</div>
-						</button>
-
-
-
-						<button class="listItems"  id="class8">
-							<div class="contactInfo">
-								<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-								<a class="chats" href="#">class-8</a>
-							</div>
-						</button>
-
-
-
-						<button class="listItems" id="class9">
-							<div class="contactInfo">
-								<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-								<a class="chats" href="#">class-9</a>
-							</div>
-						</button>
-
-
-
-						<button class="listItems" id="class10">
-							<div class="contactInfo">
-								<img src="./images/pngaaa.com-2841769.png" class="contactStatus"/>
-								<a class="chats" href="#">class-10</a>
-							</div>
-						</button>
-
-			</div>
-		</div>
-	</div>
-	<script>
-		// Get the container element
-		var btnContainer = document.getElementById("menu");
-
-		// Get all buttons with class="btn" inside the container
-		var btns = btnContainer.getElementsByClassName("listItems");
-
-		// Loop through the buttons and add the active class to the current/clicked button
-		for (var i = 0; i < btns.length; i++) {
-			btns[i].addEventListener("click", function() {
-				var current = document.getElementsByClassName("active");
-
-				// If there's no active class
-				if (current.length > 0) {
-					current[0].className = current[0].className.replace(" active", "");
-				}
-
-				// Add the active class to the current/clicked button
-				this.className += " active";
-			});
-		}
-	</script>
-</body>
-</html>
+					// Add the active class to the current/clicked button
+					this.className += " active";
+				});
+			}
+      </script>
+    </body>
+  </html>
