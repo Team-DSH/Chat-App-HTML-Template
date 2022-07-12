@@ -64,33 +64,34 @@ body {
 }
 .menu {
   padding: 0;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin: 15px;
   list-style-type: none;
 }
-.btn {
+.listItems {
   background: #1a1a1a;
   border-radius: 10px;
   width: calc(500px - 44px);
   margin-bottom: 10px;
+  border: none;
+  align-items: left;
 }
-.btn:hover {
-  background-color: #2f2f2f;
-  border-radius: 10px;
-}
-.btn:hover .chats {
-  color: #f4f4f4;
-}
-
 .contactStatus {
   width: 15px;
   height: 15px;
 }
 .contactInfo {
   margin-left: 15px;
+  align-items: left;
 }
 .active {
   background-color: #0e71ea;
+}
+.listItems:hover {
+  background-color: #2f2f2f;
+  border-radius: 10px;
+}
+.listItems:hover .chats {
+  color: #f4f4f4;
 }
 .active .chats {
   color: #f4f4f4;
