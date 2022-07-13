@@ -1,7 +1,8 @@
 {
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[html]": {
-		"editor.defaultFormatter": "NikolaosGeorgiou.html-fmt-vscode"
-	}
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "NikolaosGeorgiou.html-fmt-vscode"
+  },
+  "liveServer.settings.port": 5501
 }
