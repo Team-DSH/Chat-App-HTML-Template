@@ -13,12 +13,48 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right, #00aff0, #00ff5f);
-  display: flex;
+  background-image: linear-gradient(to right, black, black);
+  display: absolute;
   align-items: center;
   justify-content: center;
   color: #fff;
 }
+.userinfo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 0;
+  margin-right: 250px;
+  margin-bottom: 15px;
+  background-color: black;
+  border-radius: 20px;
+  width: 400px;
+  height: 60px;
+  border-style: solid;
+  color: #fff;
+  border-width: 2px;
+
+  /* justify-content: space-between; */
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: 15px;
+  opacity: 1;
+  /* top: -50px; */
+  /* left: calc(50% - 50px); */
+}
+.username {
+  font-size: 1.2rem;
+  color: #1982c4;
+  margin-top: 4px;
+  margin-left: 80px;
+  position: absolute;
+}
+
 .chatbox {
   background: black;
   border-radius: 30px;
@@ -35,7 +71,7 @@
   border-style: solid;
   border-width: 2px;
   border-color: #fff;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .col-2 {
   flex-basis: 250px;
@@ -112,4 +148,14 @@
 }
 .col-2 ul li.away::before {
   background: grey;
+}
+
+.active {
+  background-color: #0e71ea;
+}
+.listItems:hover .chats {
+  color: #f4f4f4;
+}
+.active .chats {
+  color: #f4f4f4;
 }

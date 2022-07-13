@@ -2,16 +2,30 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Chat App</title>
-        <link rel="stylesheet" href="./chat-app.css">
-        <link rel="stylesheet" href="./css/admin.css">
+        <link rel="stylesheet" href="./css/chat-app.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
+            <div class="userinfo">
+                <img src="images/avatar.png" class="avatar" alt="">
+                <h3 class="username">User Name</h3>
+                <!-- TODO add anchor for logout -->
+            </div>
             <div class="chatbox">
+                <div class="col-2">
+                    <ul>
+                        <li class="online">Class 1</li>
+                        <li class="away">Class 2</li>
+                        <li class="online">Class 3</li>
+                        <li class="offline">Class 4</li>
+                    </ul>
+                </div>
                 <div class="col-1">
                     <div class="msg-row">
                         <div class="msg-text">
@@ -33,16 +47,29 @@
                     </div>
                     <input class="search" type="text" placeholder="Type Your Massage here...">
                 </div>
-                <div class="col-2">
-                    <h3>Contact List</h3>
-                    <ul>
-                        <li class="online">Thevindu Senanayake</li>
-                        <li class="away">Senura Rathnayake</li>
-                        <li class="online">Nirmal Dissanayake</li>
-                        <li class="offline">Danidu Herath</li>
-                    </ul>
-                </div>
             </div>
         </div>
+        <script>
+          // Get the container element
+          var btnContainer = document.getElementById("menu");
+
+          // Get all buttons with class="btn" inside the container
+          var btns = btnContainer.getElementsByClassName("listItems");
+
+          // Loop through the buttons and add the active class to the current/clicked button
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+              var current = document.getElementsByClassName("active");
+
+              // If there's no active class
+              if (current.length > 0) {
+                current[0].className = current[0].className.replace(" active", "");
+              }
+
+              // Add the active class to the current/clicked button
+              this.className += " active";
+            });
+          }
+        </script>
     </body>
 </html>
