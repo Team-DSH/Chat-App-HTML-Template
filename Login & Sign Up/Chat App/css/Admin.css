@@ -13,9 +13,6 @@ body {
   font-size: 0;
   border-radius: 15px;
   overflow: hidden;
-  /* border-style: solid;
-  border-width: 2px;
-  border-color: white; */
 }
 .profile_image {
   width: 55px;
@@ -109,14 +106,12 @@ aside ul {
   overflow-y: scroll;
 }
 /*/*Scroll Bar /*
-
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
   border-radius: 20%;
 }
 /* Track */
-
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 10px;
@@ -247,8 +242,6 @@ main header h3 {
   list-style-type: none;
   overflow-y: scroll;
   height: 635px;
-  /* border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff; */
   border: 2px solid #fff;
   border-radius: 10px;
   margin-left: 10px;
