@@ -17,13 +17,13 @@ body {
   border-width: 2px;
   border-color: white;
 }
-.profile-image {
+.profile_image {
   width: 55px;
   height: 55px;
   border-radius: 40px;
   background: rgba(255, 255, 255, 0.8);
 }
-.chatbox-img {
+.chatbox_img {
   margin-top: 0px;
   margin-bottom: 30px;
   width: 55px;
@@ -31,7 +31,7 @@ body {
   border-radius: 40px;
   background: rgba(255, 255, 255, 0.8);
 }
-.chatbox-name {
+.chatbox_name {
   margin-top: 15px;
   margin-bottom: 0px;
   margin-top: 6px;
@@ -48,7 +48,7 @@ body {
   width: 240px;
   height: 60px;
   float: left;
-  background: green;
+  background: palegoldenrod;
 }
 .avatar {
   width: 50px;
