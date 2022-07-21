@@ -13,9 +13,6 @@ body {
   font-size: 0;
   border-radius: 15px;
   overflow: hidden;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
 }
 .chatbox-img {
   margin-top: 0px;
@@ -40,15 +37,19 @@ main {
 /*/*Scroll Bar /*
 /* width */
 ::-webkit-scrollbar {
-  width: 11px;
+  width: 15px;
+  border-radius: 20%;
 }
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
@@ -57,6 +58,12 @@ main {
 main header {
   height: 110px;
   padding: 30px 20px 30px 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 main header > * {
   display: inline-block;
@@ -89,9 +96,9 @@ main header h3 {
   list-style-type: none;
   overflow-y: scroll;
   height: 635px;
-  width: 100%;
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  margin-left: 10px;
 }
 #chat li {
   padding: 10px 30px;
@@ -132,9 +139,12 @@ main header h3 {
   color: #fff;
 }
 main footer {
-  margin-top: 20px;
+  margin-top: 10px;
   height: 90px;
   padding: 20px 30px 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  margin-left: 10px;
 }
 main footer input {
   resize: none;

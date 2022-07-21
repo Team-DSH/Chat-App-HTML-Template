@@ -243,7 +243,7 @@ main header h3 {
   overflow-y: scroll;
   height: 635px;
   border: 2px solid #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: 10px;
 }
 #chat li {
@@ -288,7 +288,7 @@ main footer {
   height: 90px;
   padding: 20px 30px 10px 20px;
   border: 2px solid #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: 10px;
 }
 main footer input {
