@@ -41,14 +41,14 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-top: 0;
+  margin-top: 15px;
   margin-right: 200px;
-  margin: 0;
+  margin-left: 10px;
   border-radius: 20px;
   width: 240px;
   height: 60px;
   float: left;
-  background: palegoldenrod;
+  padding: 30px 20px;
 }
 .avatar {
   width: 50px;
