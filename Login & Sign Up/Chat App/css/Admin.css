@@ -268,7 +268,7 @@ main header h3 {
   max-width: 100%;
   display: inline-block;
   text-align: left;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 #chat .me {
   text-align: right;
