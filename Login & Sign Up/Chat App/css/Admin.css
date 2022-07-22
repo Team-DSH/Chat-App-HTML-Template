@@ -5,6 +5,9 @@ body {
   background-color: #1a1a1a;
   font-family: "Mingzat", sans-serif;
 }
+/* *If Dilivered is grey it mean message was delivered but not yet read
+   *If Delivered is blue it mean message was delivered and read */
+
 #container {
   width: 100%;
   height: 100%;
@@ -13,6 +16,12 @@ body {
   font-size: 0;
   border-radius: 15px;
   overflow: hidden;
+}
+#chat h1 {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: normal;
+  color: #6fbced;
 }
 .profile_image {
   width: 55px;
@@ -108,14 +117,13 @@ aside ul {
 /*/*Scroll Bar /*
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
-  border-radius: 20%;
+  width: 13px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-  margin-bottom: 5px;
+  background: transparent;
+  margin: 10px;
+  margin-bottom: 10px;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -128,6 +136,10 @@ aside ul {
 }
 aside li {
   padding: 10px 0;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 aside li:hover {
   background-color: #5e616a;
@@ -165,13 +177,13 @@ aside li h3 {
   margin-right: 7px;
 }
 .green {
-  background-color: #58b666;
+  background-color: #6fbced;
 }
 .orange {
   background-color: grey;
 }
 .blue {
-  background-color: #6fbced;
+  background-color: grey;
   margin-right: 0;
   margin-left: 7px;
 }
