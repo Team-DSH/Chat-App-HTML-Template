@@ -5,8 +5,8 @@ body {
   background-color: #1a1a1a;
   font-family: "Mingzat", sans-serif;
 }
-/* *If Dilivered is grey it mean message was delivered but not yet read
-   *If Delivered is blue it mean message was delivered and read */
+/* If Dilivered is grey it mean message was delivered but not yet read
+   If Delivered is blue it mean message was delivered and read */
 
 #container {
   width: 100%;
@@ -114,7 +114,7 @@ aside ul {
   height: 632px;
   overflow-y: scroll;
 }
-/*/*Scroll Bar /*
+/*Scroll Bar */
 /* width */
 ::-webkit-scrollbar {
   width: 13px;
