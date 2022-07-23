@@ -1,21 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
-        <title>Attendence Chart</title>
-        <link rel="stylesheet" type="text/css" href="./Attendence.css">
+        <meta charset="UTF-8">
+        <title>Admin Dashboard</title>
+        <link rel="stylesheet" href="../style.css">
+        <!-- Font Awesome Cdn Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
-        <div class="x-box"></div>
-        <div class="x-box-cont">
-            <h1>Attendence</h1>
-            <strong style="color: #ff264a">Boys = 23</strong>
-            <strong style="color: #feec1e">Girls = 22</strong>
-            <strong style="color: #12cbc4">Total = 45</strong>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="logo">
+                            <img src="../images/avatar.png">
+                            <span class="nav-item Admin-name">Username</span>
+                        </a>
+                    </li>
+                    <!-- <li>
+            <a href="#">
+              <i class="fas fa-menorah"></i>
+              <span class="nav-item">Dashboard</span>
+            </a>
+          </li> -->
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-comment"></i>
+                            <span class="nav-item">Message</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-database"></i>
+                            <span class="nav-item">Users</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="nav-item">Attendance</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-cog"></i>
+                            <span class="nav-item">Edit View</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span class="nav-item">Log out</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <div class="main-top users">
+        <h1 class="attendence">Attendance</h1>
+      </div> -->
+            <br>
+            <br>
+            <div class="users">
+                <!--Grade 6-->
+                <section class="main-3 users">
+                    <div class="main-top-2">
+                        <h1 class="grade">Grade 6</h1>
+                    </div>
+                    <div class="users">
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>6A</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>6B</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>6C</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>6D</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>6E</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>6F</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                    </div>
+                </section>
+                <!--Grade 7-->
+                <section class="main-3 users">
+                    <div class="main-top-2">
+                        <h1 class="grade">Grade 7</h1>
+                    </div>
+                    <div class="users">
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7A</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7B</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7C</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7D</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7E</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7F</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- Grade 8 -->
+                <section class="main-3 users">
+                    <div class="main-top-2">
+                        <h1 class="grade">Grade 8</h1>
+                    </div>
+                    <div class="users">
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7A</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7B</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7C</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7D</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7E</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7F</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>22</span>
+                                        </td>
+                                        <td>
+                                            <span>23</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Girls</td>
+                                        <td>Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <!-- <section class="attendance">
+            <div class="attendance-list">
+              <h1>Attendance List</h1>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Grade</th>
+                    <th>Attendance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>6A</td>
+                    <td>
+                      <button>View</button>
+                    </td>
+                  </tr>
+                  <tr class="active">
+                    <td>6B</td>
+                    <td>
+                      <button>View</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>6C</td>
+                    <td>
+                      <button>View</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>6D</td>
+                    <td>
+                      <button>View</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>6E</td>
+                    <td>
+                      <button>View</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>6F</td>
+                    <td>
+                      <button>View</button>
+                    </td>
+                  </tr>
+                    <tr>
+                    <td>6</td>
+                    <td>Class G</td>
+                    <td>
+                      <button>View</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Class H</td>
+                    <td>
+                      <button>View</button>
+                    </td>
+                  </tr> -->
+                    <!-- <tr >
+                <td>05</td>
+                <td>Salina</td>
+                <td>Coding</td>
+                <td>03-24-22</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr >
+                <td>06</td>
+                <td>Tara Smith</td>
+                <td>Testing</td>
+                <td>03-24-22</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td><button>View</button></td>
+              </tr> -->
+                </tbody>
+            </table>
         </div>
-    </body>
+    </section>
+</section>
+</div>
+</div>
+</body>
 </html>
