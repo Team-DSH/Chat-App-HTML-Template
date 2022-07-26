@@ -3,18 +3,65 @@
     <head>
         <meta charset="UTF-8">
         <title>Admin Chat App UI</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="../style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="container">
-            <div class="userinfo">
+        <div id="container-chat">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="logo">
+                            <img src="../images/avatar.png">
+                            <span class="nav-item Admin-name">Username</span>
+                        </a>
+                    </li>
+                    <!-- <li>
+            <a href="#">
+              <i class="fas fa-menorah"></i>
+              <span class="nav-item">Dashboard</span>
+            </a>
+          </li> -->
+                    <li>
+                        <a href="../Chat App/Admin.html">
+                            <i class="fas fa-comment"></i>
+                            <span class="nav-item">Message</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-database"></i>
+                            <span class="nav-item">Users</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Attendence PI Graph/Attendence.html">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="nav-item">Attendance</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Edit Profile.html">
+                            <i class="fas fa-cog"></i>
+                            <span class="nav-item">Edit Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Login.html" class="logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span class="nav-item">Log out</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <div class="userinfo">
                 <img src="./pictures/avatar.png" class="avatar" alt="">
                 <h3 class="username">User Name</h3>
-                <!-- TODO add anchor for logout and Edit Profile -->
-            </div>
+                <!-- TODO add anchor for logout and Edit Profile
+            </div> -->
             <aside>
                 <header>
                     <input type="text" placeholder="search">

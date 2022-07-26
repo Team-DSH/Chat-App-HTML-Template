@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
+        <title>Eidt Profile Page</title>
+        <link rel="stylesheet" href="./Edit Profile.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="logo">
+                            <img src="../images/avatar.png">
+                            <span class="nav-item Admin-name">Username</span>
+                        </a>
+                    </li>
+                    <!-- <li>
+		  <a href="#">
+			 <i class="fas fa-menorah"></i>
+			 <span class="nav-item">Dashboard</span>
+		  </a>
+		</li> -->
+                    <li>
+                        <a href="../Chat App/Admin.html">
+                            <i class="fas fa-comment"></i>
+                            <span class="nav-item">Message</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-database"></i>
+                            <span class="nav-item">Users</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Attendence PI Graph/Attendence.html">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="nav-item">Attendance</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Edit Profile.html">
+                            <i class="fas fa-cog"></i>
+                            <span class="nav-item">Edit Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Login.html" class="logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span class="nav-item">Log out</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <center>
+                <div class="box">
+                    <input type="file" id="file" name="image">
+                    <img src="./images/avatar.png" width="100%" height="100%">
+                    <label for="file">Change Profile Picture</label>
+                    <input type="text" placeholder="User Name" name="">
+                    <button style="float: left;margin: 10px 0 0 18.2%;">CANCEL</button>
+                    <button name="done" style="float: right;margin:10px 18.2% 0 0;">DONE</button>
+                </div>
+            </center>
+        </div>
+    </body>
+</html>

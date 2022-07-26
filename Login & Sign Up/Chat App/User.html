@@ -4,90 +4,137 @@
         <meta charset="UTF-8">
         <title>User Chat App UI</title>
         <link rel="stylesheet" href="./css/User.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="container">
-            <main>
-                <header>
-                    <img class="chatbox-img" src="./pictures/avatar.png" alt="">
-                    <div>
-                        <h2 class="chatbox-name">Principle</h2>
-                    </div>
-                </header>
-                <ul id="chat">
-                    <li class="you">
-                        <div class="entete">
-                            <span class="status green"></span>
-                            <h2 class="chatname">Principle</h2>
-                            <h3>10:12AM, Today</h3>
-                        </div>
-                        <div class="triangle"></div>
-                        <div class="message">
-                            Class A Students please send your Attendence to me hurry and shutup your mouth.
-                        </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="logo">
+                            <img src="../images/avatar.png">
+                            <span class="nav-item Admin-name">Username</span>
+                        </a>
                     </li>
-                    <li class="me">
-                        <div class="entete">
-                            <h3>10:12AM, Today</h3>
-                            <h2 class="chatname">Class A</h2>
-                            <span class="status blue"></span>
-                        </div>
-                        <div class="triangle"></div>
-                        <div class="message">
-                            Class A Students please send your Attendence to me hurry and shutup your mouth.
-                        </div>
+                    <!-- <li>
+            <a href="#">
+              <i class="fas fa-menorah"></i>
+              <span class="nav-item">Dashboard</span>
+            </a>
+          </li> -->
+                    <li>
+                        <a href="../Chat App/Admin.html">
+                            <i class="fas fa-comment"></i>
+                            <span class="nav-item">Message</span>
+                        </a>
                     </li>
-                    <li class="me">
-                        <div class="entete">
-                            <h3>10:12AM, Today</h3>
-                            <h2 class="chatname">Class A</h2>
-                            <span class="status blue"></span>
-                        </div>
-                        <div class="triangle"></div>
-                        <div class="message">OK</div>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-database"></i>
+                            <span class="nav-item">Users</span>
+                        </a>
                     </li>
-                    <li class="you">
-                        <div class="entete">
-                            <span class="status green"></span>
-                            <h2 class="chatname">Principle</h2>
-                            <h3>10:12AM, Today</h3>
-                        </div>
-                        <div class="triangle"></div>
-                        <div class="message">
-                            Class A Students please send your Attendence to me hurry and shutup your mouth.
-                        </div>
+                    <li>
+                        <a href="../Attendence PI Graph/Attendence.html">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="nav-item">Attendance</span>
+                        </a>
                     </li>
-                    <li class="me">
-                        <div class="entete">
-                            <h3>10:12AM, Today</h3>
-                            <h2 class="chatname">Class A</h2>
-                            <span class="status blue"></span>
-                        </div>
-                        <div class="triangle"></div>
-                        <div class="message">
-                            Class A Students please send your Attendence to me hurry and shutup your mouth.
-                        </div>
+                    <li>
+                        <a href="../Edit Profile.html">
+                            <i class="fas fa-cog"></i>
+                            <span class="nav-item">Edit Profile</span>
+                        </a>
                     </li>
-                    <li class="me">
-                        <div class="entete">
-                            <h3>10:12AM, Today</h3>
-                            <h2 class="chatname">Class A</h2>
-                            <span class="status blue"></span>
-                        </div>
-                        <div class="triangle"></div>
-                        <div class="message">OK</div>
+                    <li>
+                        <a href="../Login.html" class="logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span class="nav-item">Log out</span>
+                        </a>
                     </li>
                 </ul>
-                <footer>
-                    <img src="./pictures/icons8-attach-75 (1).png">
-                    <img src="./pictures/icons8-happy-75.png">
-                    <input placeholder="Type your message"></input>
-                    <img src="./pictures/icons8-sent-75 (1).png" alt="">
-                </footer>
-            </main>
+            </nav>
         </div>
+        <main>
+            <header>
+                <img class="chatbox-img" src="./pictures/avatar.png" alt="">
+                <div>
+                    <h2 class="chatbox-name">Principle</h2>
+                </div>
+            </header>
+            <ul id="chat">
+                <li class="you">
+                    <div class="entete">
+                        <span class="status green"></span>
+                        <h2 class="chatname">Principle</h2>
+                        <h3>10:12AM, Today</h3>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="message">
+                        Class A Students please send your Attendence to me hurry and shutup your mouth.
+                    </div>
+                </li>
+                <li class="me">
+                    <div class="entete">
+                        <h3>10:12AM, Today</h3>
+                        <h2 class="chatname">Class A</h2>
+                        <span class="status blue"></span>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="message">
+                        Class A Students please send your Attendence to me hurry and shutup your mouth.
+                    </div>
+                </li>
+                <li class="me">
+                    <div class="entete">
+                        <h3>10:12AM, Today</h3>
+                        <h2 class="chatname">Class A</h2>
+                        <span class="status blue"></span>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="message">OK</div>
+                </li>
+                <li class="you">
+                    <div class="entete">
+                        <span class="status green"></span>
+                        <h2 class="chatname">Principle</h2>
+                        <h3>10:12AM, Today</h3>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="message">
+                        Class A Students please send your Attendence to me hurry and shutup your mouth.
+                    </div>
+                </li>
+                <li class="me">
+                    <div class="entete">
+                        <h3>10:12AM, Today</h3>
+                        <h2 class="chatname">Class A</h2>
+                        <span class="status blue"></span>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="message">
+                        Class A Students please send your Attendence to me hurry and shutup your mouth.
+                    </div>
+                </li>
+                <li class="me">
+                    <div class="entete">
+                        <h3>10:12AM, Today</h3>
+                        <h2 class="chatname">Class A</h2>
+                        <span class="status blue"></span>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="message">OK</div>
+                </li>
+            </ul>
+            <footer>
+                <img src="./pictures/icons8-attach-75 (1).png">
+                <img src="./pictures/icons8-happy-75.png">
+                <input placeholder="Type your message"></input>
+                <img src="./pictures/icons8-sent-75 (1).png" alt="">
+            </footer>
+        </main>
     </body>
 </html>
