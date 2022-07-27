@@ -23,7 +23,7 @@ body {
 }
 .box:hover {
   width: 360px;
-  height: 600px;
+  height: 90%;
   border-radius: 5px;
 }
 img {

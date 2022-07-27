@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <title>Admin Chat App UI</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="container-chat">
+        <div class="container-chat flex-container">
             <nav>
                 <ul>
                     <li>
@@ -57,6 +57,7 @@
                     </li>
                 </ul>
             </nav>
+            <!-- <div class="chatonly-container"> -->
             <!-- <div class="userinfo">
                 <img src="./pictures/avatar.png" class="avatar" alt="">
                 <h3 class="username">User Name</h3>
@@ -141,6 +142,16 @@
                         <img class="profile_image" src="pictures\avatar.png" alt="">
                         <div>
                             <h2>Class H</h2>
+                            <h3>
+                                <span class="offline"></span>
+                                offline
+                            </h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="profile_image" src="pictures\avatar.png" alt="">
+                        <div>
+                            <h2>Class I</h2>
                             <h3>
                                 <span class="offline"></span>
                                 offline
@@ -236,5 +247,6 @@
                 </footer>
             </main>
         </div>
-    </body>
+    </div>
+</body>
 </html>

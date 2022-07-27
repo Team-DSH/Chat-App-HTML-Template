@@ -1,0 +1,80 @@
+body {
+  background-color: #1a1a1a;
+  font-family: "Mingzat", sans-serif;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 60vh;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 10px;
+  color: white;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #009879;
+}
+
+.styled-table {
+  border: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.amount:hover {
+  background-color: rgb(196, 193, 193);
+  color: #009879;
+}
+
+.styled-table tbody {
+  background-color: #3b3e49;
+}
+
+.styled-table table {
+  border-collapse: separate;
+}
+
+.username {
+  border-right: 0.3vh solid white;
+  border-left: 0.3vh solid white;
+}
+
+tbody,
+td {
+  border-right: 0.3vh solid #009879;
+}
+
+.grade {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.total {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.consider-msg {
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+}
