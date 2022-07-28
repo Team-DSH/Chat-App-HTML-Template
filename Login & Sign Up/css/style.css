@@ -206,8 +206,8 @@ flex-container > div {
 
 aside {
   margin-top: -100vh;
-  width: 19%;
-  height: 98vh;
+  width: 20%;
+  height: 100vh;
   background-color: #3b3e49;
   display: inline-block;
   font-size: 15px;
@@ -217,7 +217,10 @@ aside {
   margin-left: 14vh;
   margin-bottom: 13.5vh;
   overflow: hidden;
+  /* border-top-left-radius: 5vh; */
+  border-top: 0.4vh solid white;
   border-right: 0.4vh solid white;
+  border-bottom: 0.4vh solid white;
 }
 
 main {
@@ -380,17 +383,21 @@ aside li h3 {
 }
 
 main header {
-  height: 100%;
-  width: 92%;
+  height: 99%;
+  width: 149.5vh;
   padding: 2.4% 41% 0% 4.3%;
   /* border-style: solid;
   border-width: 2px;
   border-color: white;
   border-radius: 20px; */
-  margin-bottom: 10px;
-  margin-top: -111.5vh;
-  margin-left: 53vh;
+  /* margin-bottom: 10px; */
+  margin-top: -113.5vh;
+  margin-left: 54.6vh;
   /* margin-top: -53%; */
+  /* border-top: 0.4vh solid white;
+  border-right: 0.4vh solid white; */
+  border: 0.4vh solid white;
+  border-left: transparent;
 }
 
 main header > * {
@@ -432,11 +439,13 @@ main header h3 {
   /* height: 635px; */
   /* border: 2px solid #fff;
   border-radius: 20px; */
-  margin-left: 55vh;
-  margin-top: 1vh;
-  width: 162.7vh;
-  height: 67.8vh;
-  border-top: 0.4vh solid white;
+  margin-left: 54.6vh;
+  margin-top: -1vh;
+  width: 149.5vh;
+  height: 67.9vh;
+  border: 0.4vh solid white;
+  border-top: 0.4vh solid transparent;
+  border-left: transparent;
 }
 
 #chat li {
@@ -486,20 +495,22 @@ main header h3 {
 }
 
 main footer {
-  margin-top: 0.1%;
-  height: 8vh;
-  width: 162.7vh;
-  padding: 20px 30px 10px 20px;
-  /* border: 2px solid #fff;
-  border-radius: 20px; */
-  margin-left: 55vh;
-  border-top: 0.4vh solid white;
+  /* margin-top: 2.2vh; */
+  height: 14.7vh;
+  width: 150.5vh;
+  padding: 20px 20px 20px 20px;
+  margin-left: 53.5vh;
+  border-top: 0.4vh solid transparent;
+  border-left: 0.4vh solid transparent;
+  border-right: 0.4vh solid white;
+  border-bottom: 0.4vh solid white;
+  /* border: 0.4vh solid white; */
 }
 main footer input {
   resize: none;
   border: none;
   display: block;
-  width: 84%;
+  width: 88%;
   height: 65%;
   position: relative;
   border-radius: 30px;
@@ -511,7 +522,6 @@ main footer input {
   float: left;
   background-color: #5e616a;
 }
-
 main footer input::placeholder {
   color: black;
   font-family: "Mingzat", sans-serif;
