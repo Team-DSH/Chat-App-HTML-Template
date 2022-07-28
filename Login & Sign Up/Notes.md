@@ -5,6 +5,6 @@ Default avater,
 design by admins,
 random avater genarator,
 
-# thevindu's part
+# Test Avtar Genarator.
 
-complete Backend
+@Thevindu-Senanayake
