@@ -55,6 +55,7 @@ main {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
 main header {
   height: 110px;
   padding: 30px 20px 30px 40px;
@@ -63,7 +64,8 @@ main header {
   border-color: white;
   border-radius: 20px;
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-top: -100vh;
+  margin-left: 16vh;
 }
 main header > * {
   display: inline-block;
@@ -98,7 +100,8 @@ main header h3 {
   height: 635px;
   border: 2px solid #fff;
   border-radius: 20px;
-  margin-left: 10px;
+  margin-left: 16vh;
+  height: 65vh;
 }
 #chat li {
   padding: 10px 30px;
@@ -140,25 +143,27 @@ main header h3 {
 }
 main footer {
   margin-top: 10px;
-  height: 90px;
+  height: 12vh;
   padding: 20px 30px 10px 20px;
   border: 2px solid #fff;
   border-radius: 20px;
-  margin-left: 10px;
+  margin-left: 16vh;
 }
 main footer input {
   resize: none;
   border: none;
   display: block;
-  width: 90%;
-  height: 70%;
+  width: 150vh;
+  height: 7vh;
   position: relative;
   border-radius: 30px;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 15px;
   color: #fff;
-  margin-top: 18p;
-  margin-bottom: 13px;
+  margin-top: -1vh;
+  margin-left: 0vh;
+  /* margin-right: -20vh; */
+  margin-bottom: 10vh;
   float: left;
   background-color: #5e616a;
 }
