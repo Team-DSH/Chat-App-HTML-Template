@@ -5,6 +5,6 @@ Default avater,
 design by admins,
 random avater genarator,
 
-# Test Avtar Genarator.
+# Bug in Chat app UI's
 
-@Thevindu-Senanayake
+try to fix it @Thevindu-Senanayake, @nirmal-developer

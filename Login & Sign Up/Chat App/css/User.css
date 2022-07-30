@@ -58,15 +58,9 @@ main {
 main header {
   height: 110px;
   padding: 30px 20px 30px 40px;
-  /* border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  border-radius: 20px; */
-  /* margin-bottom: 10px; */
   margin-top: -100vh;
   margin-left: 14vh;
   border: 0.5px solid white;
-  /* background-color: #272626; */
 }
 main header > * {
   display: inline-block;
@@ -152,13 +146,11 @@ main header h3 {
 #chat .me .message {
   background-color: #6fbced;
 }
-
 .chatname {
   margin-top: 15px;
   color: #fff;
 }
 main footer {
-  /* margin-top: 2.2vh; */
   height: 17.3vh;
   width: 189.7vh;
   padding: 20px 20px 20px 20px;
@@ -166,8 +158,6 @@ main footer {
   border: 0.5px solid white;
   border-top: hidden;
   flex: right;
-  /* background-color: #272626; */
-  /* border: 0.4vh solid white; */
 }
 main footer input {
   resize: none;
@@ -187,7 +177,6 @@ main footer input::placeholder {
   color: black;
   font-family: "Mingzat", sans-serif;
 }
-
 main footer img {
   margin-left: 0.4vh;
   margin-top: 1.6vh;

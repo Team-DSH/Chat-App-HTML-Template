@@ -136,11 +136,8 @@ flex-container > div {
   width: 100%;
   height: 100%;
   background: #1a1a1a;
-  /* margin: 0;
-  font-size: 0; */
   border-radius: 15px;
   overflow: hidden;
-  /* float: right; */
   border: 0.5px solid white;
 }
 
@@ -212,12 +209,9 @@ aside {
   display: inline-block;
   font-size: 15px;
   vertical-align: top;
-  /* border: 2px solid #ffff;
-  border-radius: 20px; */
   margin-left: 14vh;
   margin-bottom: 13.5vh;
   overflow: hidden;
-  /* border-top-left-radius: 5vh; */
   border-top: 0.5px solid white;
   border-right: 0.5px solid white;
   border-bottom: 0.5px solid white;
@@ -386,16 +380,8 @@ main header {
   height: 99%;
   width: 149.5vh;
   padding: 2.4% 41% 0% 4.3%;
-  /* border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  border-radius: 20px; */
-  /* margin-bottom: 10px; */
   margin-top: -113.5vh;
   margin-left: 54.6vh;
-  /* margin-top: -53%; */
-  /* border-top: 0.4vh solid white;
-  border-right: 0.4vh solid white; */
   border: 0.5px solid white;
   border-left: transparent;
 }
@@ -432,13 +418,8 @@ main header h3 {
 }
 
 #chat {
-  /* padding-left: 0; */
-  /* margin: 0; */
   list-style-type: none;
   overflow-y: scroll;
-  /* height: 635px; */
-  /* border: 2px solid #fff;
-  border-radius: 20px; */
   margin-left: 54.6vh;
   margin-top: -1vh;
   width: 149.5vh;
@@ -495,7 +476,6 @@ main header h3 {
 }
 
 main footer {
-  /* margin-top: 2.2vh; */
   height: 15.2vh;
   width: 150.5vh;
   padding: 20px 20px 20px 20px;
@@ -504,7 +484,6 @@ main footer {
   border-left: 0.5px solid transparent;
   border-right: 0.5px solid white;
   border-bottom: 0.5px solid white;
-  /* border: 0.4vh solid white; */
 }
 main footer input {
   resize: none;
@@ -552,7 +531,6 @@ nav {
   height: 100vh;
   left: 0;
   width: 90px;
-  /* width: 280px; */
   background: #3b3e49;
   overflow: hidden;
   transition: 1s;
@@ -678,7 +656,6 @@ a:hover i {
 .main-3-1 {
   display: flex;
   position: relative;
-  /* padding: 20px; */
   width: 100%;
   margin: 20px;
 }
@@ -801,10 +778,6 @@ table thead tr {
 .table th,
 .table td {
   padding: 12px 15px;
-  /* border-style: solid;
-  border-width: 2px;
-  border-color: #34af6d;
-  border-radius: 10px; */
 }
 .table tbody tr {
   border-bottom: 1px solid #ddd;
