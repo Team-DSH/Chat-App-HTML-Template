@@ -21,7 +21,7 @@ nav {
   background: #3b3e49;
   overflow: hidden;
   transition: 1s;
-  border-right: 0.4vh solid white;
+  border-right: 0.5px solid white;
   z-index: 1;
 }
 nav:hover {

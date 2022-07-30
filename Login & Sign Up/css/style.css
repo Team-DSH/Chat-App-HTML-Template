@@ -141,7 +141,7 @@ flex-container > div {
   border-radius: 15px;
   overflow: hidden;
   /* float: right; */
-  border: 0.4vh solid white;
+  border: 0.5px solid white;
 }
 
 #chat h1 {
@@ -218,9 +218,9 @@ aside {
   margin-bottom: 13.5vh;
   overflow: hidden;
   /* border-top-left-radius: 5vh; */
-  border-top: 0.4vh solid white;
-  border-right: 0.4vh solid white;
-  border-bottom: 0.4vh solid white;
+  border-top: 0.5px solid white;
+  border-right: 0.5px solid white;
+  border-bottom: 0.5px solid white;
 }
 
 main {
@@ -396,7 +396,7 @@ main header {
   /* margin-top: -53%; */
   /* border-top: 0.4vh solid white;
   border-right: 0.4vh solid white; */
-  border: 0.4vh solid white;
+  border: 0.5px solid white;
   border-left: transparent;
 }
 
@@ -443,8 +443,8 @@ main header h3 {
   margin-top: -1vh;
   width: 149.5vh;
   height: 67.9vh;
-  border: 0.4vh solid white;
-  border-top: 0.4vh solid transparent;
+  border: 0.5px solid white;
+  border-top: 0.5px solid transparent;
   border-left: transparent;
 }
 
@@ -496,14 +496,14 @@ main header h3 {
 
 main footer {
   /* margin-top: 2.2vh; */
-  height: 14.7vh;
+  height: 15.2vh;
   width: 150.5vh;
   padding: 20px 20px 20px 20px;
   margin-left: 53.5vh;
-  border-top: 0.4vh solid transparent;
-  border-left: 0.4vh solid transparent;
-  border-right: 0.4vh solid white;
-  border-bottom: 0.4vh solid white;
+  border-top: 0.5px solid transparent;
+  border-left: 0.5px solid transparent;
+  border-right: 0.5px solid white;
+  border-bottom: 0.5px solid white;
   /* border: 0.4vh solid white; */
 }
 main footer input {

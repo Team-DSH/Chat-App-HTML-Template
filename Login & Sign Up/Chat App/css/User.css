@@ -65,7 +65,7 @@ main header {
   /* margin-bottom: 10px; */
   margin-top: -100vh;
   margin-left: 14vh;
-  border: 0.4vh solid white;
+  border: 0.5px solid white;
   /* background-color: #272626; */
 }
 main header > * {
@@ -107,7 +107,7 @@ main header h3 {
   list-style-type: none;
   overflow-y: scroll;
   height: 635px;
-  border: 0.4vh solid white;
+  border: 0.5px solid white;
   border-top: hidden;
   margin-left: 14vh;
   height: 65vh;
@@ -163,7 +163,7 @@ main footer {
   width: 189.7vh;
   padding: 20px 20px 20px 20px;
   margin-left: 14vh;
-  border: 0.4vh solid white;
+  border: 0.5px solid white;
   border-top: hidden;
   flex: right;
   /* background-color: #272626; */
