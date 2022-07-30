@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>User Attendence Input</title>
+        <link rel="stylesheet" href="./css/user-side-attendence.css">
+        <link rel="stylesheet" href="../css/nav-bar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a class="logo">
+                        <img src="../images/avatar.png">
+                        <span class="nav-item Admin-name">Username</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Chat App/Admin.html">
+                        <i class="fas fa-comment"></i>
+                        <span class="nav-item">Message</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Attendence PI Graph/Attendence.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <span class="nav-item">Attendance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Login.html" class="logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="nav-item">Log out</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <center>
+            <div class="container">
+                <div class="users">
+                    <section class="input-attendence">
+                        <div class="card">
+                            <img src="../images/avatar.png">
+                            <h4>7B</h4>
+                            <div class="per">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span>
+                                                <input type="" class="input-total" placeholder=""></input>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <input type="" class="input-total" placeholder=""></input>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="gender">Girls</td>
+                                        <td class="gender">Boys</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button id="submit-btn" type="submit" class="view-btn">Submit</button>
+                            <button id="view-btn" type="submit" class="view-btn">View</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </center>
+        <script>
+    			document.getElementById("view-btn").addEventListener("click", myFunction);
+    			function myFunction() {
+      		window.location.href="./user-old-attendences .html";
+	 			}
+        </script>
+    </body>
+</html>

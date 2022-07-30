@@ -1,0 +1,105 @@
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  background-color: #1a1a1a;
+  font-family: "Mingzat", sans-serif;
+  background-size: cover;
+}
+.container {
+  margin-top: -85vh;
+  margin-left: 65vh;
+}
+.card {
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+input {
+  margin-left: -3.5vh;
+  width: 7vh;
+  height: 8vh;
+  position: absolute;
+  border-radius: 1vh;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #5e616a;
+  overflow: hidden;
+  text-align: center;
+}
+input::placeholder {
+  background-color: #1a1a1a;
+  color: black;
+  font-family: "Mingzat", sans-serif;
+}
+.users {
+  position: relative;
+  float: left;
+  width: 300vh;
+}
+.users .card {
+  position: relative;
+  width: 40%;
+  margin: 10px;
+  background: #3b3e49;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  border: 2px solid #fff;
+}
+.users .card img {
+  margin-left: 2vh;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.users .card h4 {
+  margin-left: 1vh;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.users .card p {
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.users table {
+  margin: auto;
+}
+.users .per span {
+  padding: 5px;
+  border-radius: 10px;
+  /* background: #2f3136; */
+  font-size: 1.9rem;
+  color: #fff;
+}
+.users td {
+  margin-left: 159vh;
+  font-size: 1.6rem;
+  padding-right: 5vh;
+  color: #fff;
+}
+.users .card button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid #4ad489;
+  font-size: 1.2rem;
+  color: #4ad489;
+}
+.users .card button:hover {
+  background: #4ad489;
+  color: #fff;
+  transition: 0.5s;
+}
+.per {
+  margin-left: 6.5vh;
+}

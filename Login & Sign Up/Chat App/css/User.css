@@ -55,7 +55,6 @@ main {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
 main header {
   height: 110px;
   padding: 30px 20px 30px 40px;
@@ -67,6 +66,7 @@ main header {
   margin-top: -100vh;
   margin-left: 14vh;
   border: 0.4vh solid white;
+  /* background-color: #272626; */
 }
 main header > * {
   display: inline-block;
@@ -111,6 +111,7 @@ main header h3 {
   border-top: hidden;
   margin-left: 14vh;
   height: 65vh;
+  background-color: #1d1d1d;
 }
 #chat li {
   padding: 10px 30px;
@@ -164,6 +165,8 @@ main footer {
   margin-left: 14vh;
   border: 0.4vh solid white;
   border-top: hidden;
+  flex: right;
+  /* background-color: #272626; */
   /* border: 0.4vh solid white; */
 }
 main footer input {
@@ -176,7 +179,7 @@ main footer input {
   padding: 3vh;
   font-size: 1rem;
   color: #fff;
-  margin-top: 0.1vh;
+  margin-top: 1.5vh;
   float: left;
   background-color: #5e616a;
 }
@@ -186,6 +189,8 @@ main footer input::placeholder {
 }
 
 main footer img {
+  margin-left: 0.4vh;
+  margin-top: 1.6vh;
   height: 30px;
   cursor: pointer;
 }

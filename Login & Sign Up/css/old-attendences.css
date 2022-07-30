@@ -1,6 +1,7 @@
 body {
   background-color: #1a1a1a;
   font-family: "Mingzat", sans-serif;
+  margin-top: -100vh;
 }
 .styled-table {
   border-collapse: collapse;
