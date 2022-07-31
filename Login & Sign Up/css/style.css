@@ -223,9 +223,9 @@ h1 {
 }
 
 aside {
-  margin-top: -100vh;
+  margin-top: -97.3vh;
   width: 20%;
-  height: 100vh;
+  height: 97.3vh;
   background-color: #3b3e49;
   display: inline-block;
   font-size: 15px;
@@ -400,24 +400,26 @@ aside li h3 {
 }
 
 .chat-panel {
-  margin-left: 56.1vh;
+  margin-left: 54.9vh;
   border: 0.2vh solid white;
   border-bottom: transparent;
   margin-top: -0.2vh;
-  width: 153vh;
+  width: 150vh;
 }
 
 main header {
-  height: 15%;
-  width: 154vh;
+  height: 15vh;
+  width: 151vh;
   padding: 2.4% 41% 0% 4.3%;
-  margin-top: -100vh;
+  margin-top: -97.3vh;
   margin-left: 0vh;
   /* margin-bottom: 2vh; */
   position: fixed;
   overflow: hidden;
   display: block;
-  border: 0.2vh solid white;
+  border: 0.5px solid white;
+  border-top: 0.5px solid white;
+  border-left: hidden;
 }
 
 main header > * {
@@ -455,11 +457,11 @@ main header h3 {
   list-style-type: none;
   overflow-y: scroll;
   margin-left: 0vh;
-  margin-top: -85.5vh;
-  width: 154vh;
-  height: 70vh;
-  border-top: 0.5px solid white;
+  margin-top: -82.5vh;
+  width: 151vh;
+  height: 72.6vh;
   border-bottom: 0.5px solid white;
+  border-right: 0.5px solid white;
   overflow: none;
   position: fixed;
 }
@@ -511,14 +513,14 @@ main header h3 {
 }
 
 main footer {
-  height: 30vh;
-  width: 153.5vh;
+  height: 10vh;
+  width: 151vh;
   padding: 20px 20px 20px 20px;
-  margin-left: 55.8vh;
+  margin-left: -58vh;
   margin-top: -10vh;
   border: 0.5px solid white;
-  border-left: transparent;
-  border-top: transparent;
+  /* border-left: transparent;
+  border-top: transparent; */
   margin-left: 0vh;
   position: fixed;
 }
@@ -527,15 +529,15 @@ main footer input {
   resize: none;
   border: none;
   display: block;
-  width: 84%;
+  width: 62%;
   height: 4%;
-  position: absolute;
+  position: fixed;
   border-radius: 30px;
   padding: 20px;
   font-size: 15px;
   color: #fff;
-  margin-top: -5vh;
-  margin-bottom: 13px;
+  margin-top: -8vh;
+  /* margin-bottom: 12vh; */
   float: left;
   background-color: #5e616a;
 }
@@ -548,7 +550,10 @@ main footer input::placeholder {
 main footer img {
   height: 30px;
   cursor: pointer;
-  margin-top: -2vh;
+  /* margin-left: 50vh; */
+}
+.footer-img-1 {
+  margin-left: 127vh;
 }
 
 /*/*Attendce With Dashboard*/
