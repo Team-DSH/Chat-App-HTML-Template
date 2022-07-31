@@ -14,9 +14,9 @@ body {
 
 nav {
     position: sticky;
-    top: 0;
+    margin-top: -5vh;
     bottom: 0;
-    height: 90vh;
+    height: 98vh;
     left: 0;
     width: 90px;
     background: #3b3e49;
