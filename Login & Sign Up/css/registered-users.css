@@ -1,94 +1,97 @@
 body {
-  background-color: #1a1a1a;
-  font-family: "Mingzat", sans-serif;
+    background-color: #1a1a1a;
+    font-family: "Mingzat", sans-serif;
 }
 
 .styled-table {
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  font-family: sans-serif;
-  min-width: 60vh;
-  margin-top: -70vh;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 60vh;
+    margin-top: -70vh;
 }
 
 .styled-table thead tr {
-  background-color: #009879;
-  color: #ffffff;
-  text-align: left;
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
 }
 
 .styled-table th,
 .styled-table td {
-  padding: 12px 10px;
-  color: white;
+    padding: 12px 10px;
+    color: white;
 }
 
 .styled-table tbody tr {
-  border-bottom: 1px solid #009879;
+    border-bottom: 1px solid #009879;
 }
 
 .styled-table {
-  border: 2px solid #009879;
+    border: 2px solid #009879;
 }
 
 .styled-table tbody tr.active-row {
-  font-weight: bold;
-  color: #009879;
+    font-weight: bold;
+    color: #009879;
 }
 
 .amount:hover {
-  background-color: rgb(196, 193, 193);
-  color: #009879;
+    background-color: rgb(196, 193, 193);
+    color: #009879;
 }
 
 .styled-table tbody {
-  background-color: #3b3e49;
+    background-color: #3b3e49;
 }
 
 .styled-table table {
-  border-collapse: separate;
+    border-collapse: separate;
 }
 
 .username {
-  border-right: 0.3vh solid white;
-  border-left: 0.3vh solid white;
+    border-right: 0.3vh solid white;
+    border-left: 0.3vh solid white;
 }
 
 tbody,
 td {
-  border-right: 0.3vh solid #009879;
+    border-right: 0.3vh solid #009879;
 }
 
 .grade {
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  margin-top: -99vh;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: -99vh;
 }
 
 .total {
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-  text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
 }
 
 .consider-msg {
-  font-size: 0.8rem;
-  color: white;
-  text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
 }
+
 .styled-table-1 {
-  margin-top: 10vh;
-  margin-left: 10vh;
+    margin-top: 8vh;
+    margin-left: 10vh;
 }
+
 .styled-table-2 {
-  margin-top: -40.4vh;
-  margin-left: -115vh;
+    margin-top: -33vh;
+    margin-left: -115vh;
 }
+
 .styled-table-3 {
-  margin-top: -40.4vh;
-  margin-left: 135vh;
+    margin-top: -33vh;
+    margin-left: 135vh;
 }

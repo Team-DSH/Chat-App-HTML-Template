@@ -1,67 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Users</title>
-        <link rel="stylesheet" href="./css/registered-users.css">
-        <link rel="stylesheet" href="./css/nav-bar.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="attendence-table">
-            <nav>
-                <ul>
-                    <li>
-                        <a class="logo">
-                            <img src="../images/avatar.png">
-                            <span class="nav-item Admin-name">Username</span>
-                        </a>
-                    </li>
-                    <!-- <li>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <link rel="stylesheet" href="./css/registered-users.css">
+    <link rel="stylesheet" href="./css/nav-bar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="attendence-table">
+        <nav>
+            <ul>
+                <li>
+                    <a class="logo">
+                        <img src="../images/avatar.png">
+                        <span class="nav-item Admin-name">Username</span>
+                    </a>
+                </li>
+                <!-- <li>
             <a href="#">
               <i class="fas fa-menorah"></i>
               <span class="nav-item">Dashboard</span>
             </a>
           </li> -->
-                    <li>
-                        <a href="../Chat App/Admin.html">
-                            <i class="fas fa-comment"></i>
-                            <span class="nav-item">Message</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../registered-users.html">
-                            <i class="fas fa-database"></i>
-                            <span class="nav-item">Users</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../Attendence PI Graph/Attendence.html">
-                            <i class="fas fa-chart-bar"></i>
-                            <span class="nav-item">Attendance</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../Edit Profile.html">
-                            <i class="fas fa-cog"></i>
-                            <span class="nav-item">Edit Profile</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../Login.html" class="logout">
-                            <i class="fas fa-sign-out-alt"></i>
-                            <span class="nav-item">Log out</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <center>
-                <table class="styled-table table styled-table-1">
-                    <h1 class="grade">Registered Users</h1>
-                    <h1 class="total">Total Registered Users = 60</h1>
+                <li>
+                    <a href="../Chat App/Admin.html">
+                        <i class="fas fa-comment"></i>
+                        <span class="nav-item">Message</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../registered-users.html">
+                        <i class="fas fa-database"></i>
+                        <span class="nav-item">Users</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Attendence PI Graph/Attendence.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <span class="nav-item">Attendance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Edit Profile.html">
+                        <i class="fas fa-cog"></i>
+                        <span class="nav-item">Edit Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Login.html" class="logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="nav-item">Log out</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <center>
+            <table class="styled-table table styled-table-1">
+                <h1 class="grade">Registered Users</h1>
+                <h1 class="total">Total Registered Users = 60</h1>
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th class="username">User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="amount">
+                        <td>God</td>
+                        <td>Thevindu Senanayake</td>
+                    </tr>
+                    <tr class="amount">
+                        <td>Admin</td>
+                        <td>Principle</td>
+                    </tr>
+                    <tr class="amount">
+                        <td>User</td>
+                        <td>Danidu Herath</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="styled-table styled-table-2">
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th class="username">User Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="amount">
+                        <td>God</td>
+                        <td>Thevindu Senanayake</td>
+                    </tr>
+                    <tr class="amount">
+                        <td>Admin</td>
+                        <td>Principle</td>
+                    </tr>
+                    <tr class="amount">
+                        <td>User</td>
+                        <td>Danidu Herath</td>
+                    </tr>
+                </tbody>
+                <table class="styled-table table styled-table-3">
                     <thead>
                         <tr>
                             <th>Role</th>
@@ -82,53 +127,10 @@
                             <td>Danidu Herath</td>
                         </tr>
                     </tbody>
-                </table>
-                <table class="styled-table styled-table-2">
-                    <thead>
-                        <tr>
-                            <th>Role</th>
-                            <th class="username">User Name</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="amount">
-                            <td>God</td>
-                            <td>Thevindu Senanayake</td>
-                        </tr>
-                        <tr class="amount">
-                            <td>Admin</td>
-                            <td>Principle</td>
-                        </tr>
-                        <tr class="amount">
-                            <td>User</td>
-                            <td>Danidu Herath</td>
-                        </tr>
-                    </tbody>
-                    <table class="styled-table table styled-table-3">
-                        <thead>
-                            <tr>
-                                <th>Role</th>
-                                <th class="username">User Name</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="amount">
-                                <td>God</td>
-                                <td>Thevindu Senanayake</td>
-                            </tr>
-                            <tr class="amount">
-                                <td>Admin</td>
-                                <td>Principle</td>
-                            </tr>
-                            <tr class="amount">
-                                <td>User</td>
-                                <td>Danidu Herath</td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </table>
             </table>
-        </center>
+            <center>
     </div>
 </body>
+
 </html>
