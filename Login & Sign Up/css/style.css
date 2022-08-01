@@ -226,17 +226,22 @@ h1 {
     position: absolute;
 }
 
+.all-chat-aside-content {
+    border: 0.2 solid white;
+    margin-left: 9vh;
+}
+
 aside {
     margin-top: -97.3vh;
-    width: 20%;
+    width: 21.4%;
     height: 97.3vh;
     background-color: #3b3e49;
     display: inline-block;
     font-size: 15px;
     vertical-align: top;
-    margin-left: 14vh;
+    margin-left: 2vh;
     margin-bottom: 13.5vh;
-    overflow: none;
+    overflow: hidden;
     border-top: 0.5px solid white;
     border-right: 0.5px solid white;
     border-bottom: 0.5px solid white;
@@ -258,7 +263,7 @@ aside header {
 
 aside input {
     width: 100%;
-    height: 1010%;
+    height: 5vh;
     line-height: 50px;
     padding: 0 50px 0 20px;
     background-color: #5e616a;
@@ -277,8 +282,8 @@ aside input::placeholder {
 aside ul {
     padding-left: 12;
     margin: 0;
-    height: 90vh;
-    width: 42vh;
+    height: 83.3vh;
+    width: 45.3vh;
     overflow-y: scroll;
     position: fixed;
 }
