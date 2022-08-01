@@ -1,941 +1,958 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: #1a1a1a;
-  font-family: "Mingzat", sans-serif;
-  background-size: cover;
+    background-color: #1a1a1a;
+    font-family: "Mingzat", sans-serif;
+    background-size: cover;
 }
+
 
 /*login form*/
 
 .login-wrapper {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form {
-  position: relative;
-  width: 100%;
-  max-width: 380px;
-  padding: 80px 40px 40px;
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
-  color: #fff;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
 }
 
 .form img {
-  position: absolute;
-  top: -50px;
-  left: calc(50% - 50px);
-  width: 100px;
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    width: 100px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
 }
 
 .form h2 {
-  text-align: center;
-  letter-spacing: 1px;
-  margin-bottom: 2rem;
-  color: #ff2f2f;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #ff2f2f;
 }
 
 .form .input-group {
-  position: relative;
+    position: relative;
 }
 
 .form .input-group input {
-  width: 100%;
-  padding: 10px 0;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
-  border: none;
-  border-bottom: 1px solid #fff;
-  outline: none;
-  background-color: transparent;
-  color: inherit;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
 }
 
 .form .input-group label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 0;
-  font-size: 1rem;
-  pointer-events: none;
-  transition: 0.3s ease-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease-out;
 }
 
-.form .input-group input:focus + label,
-.form .input-group input:valid + label {
-  transform: translateY(-18px);
-  color: #2ea101;
-  font-size: 0.8rem;
+.form .input-group input:focus+label,
+.form .input-group input:valid+label {
+    transform: translateY(-18px);
+    color: #2ea101;
+    font-size: 0.8rem;
 }
 
 .submit-btn {
-  display: block;
-  margin-left: auto;
-  border: none;
-  outline: none;
-  background: #1bb694;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+    display: block;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    background: #1bb694;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 
 /*Register form*/
 
 .register {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .close {
-  position: absolute;
-  right: 1.5rem;
-  top: 0.5rem;
-  font-size: 2rem;
-  font-weight: 900;
-  text-decoration: none;
-  color: inherit;
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: inherit;
 }
+
 
 /*/*Admin Chat App UI*/
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-color: #1a1a1a;
-  font-family: "Mingzat", sans-serif;
-  max-width: 100%;
-  max-height: 100%;
+    background-color: #1a1a1a;
+    font-family: "Mingzat", sans-serif;
+    max-width: 100%;
+    max-height: 100%;
 }
+
 
 /* If Dilivered is grey it mean message was delivered but not yet read
  If Delivered is blue it mean message was delivered and read */
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
-  background-color: #1a1a1a;
-  height: 1%;
-  position: sticky;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    height: 1%;
+    position: sticky;
 }
 
-flex-container > div {
-  background-color: transparent;
-  width: 100%;
-  margin: 1vh;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  position: sticky;
+flex-container>div {
+    background-color: transparent;
+    width: 100%;
+    margin: 1vh;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    position: sticky;
 }
 
 .container-t {
-  /* margin-top: 1vh; */
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #1a1a1a;
-  border-radius: 15px;
-  overflow: hidden;
-  border: 0.5px solid white;
-  position: sticky;
-  z-index: 1;
+    /* margin-top: 1vh; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1a1a1a;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 0.5px solid white;
+    position: sticky;
+    z-index: 1;
 }
 
 h1 {
-  display: inline-block;
-  font-size: 13px;
-  font-weight: normal;
-  color: #6fbced;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    color: #6fbced;
 }
 
 .profile_image {
-  width: 55px;
-  height: 55px;
-  border-radius: 40px;
-  background: rgba(255, 255, 255, 0.8);
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .chatbox_img {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  width: 55px;
-  height: 55px;
-  border-radius: 40px;
-  background: rgba(255, 255, 255, 0.8);
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .chatbox_name {
-  margin-top: 15px;
-  margin-bottom: 0px;
-  margin-top: 6px;
-  font-size: 1.3rem;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    font-size: 1.3rem;
 }
 
 .userinfo {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-  border-radius: 20px;
-  width: 19%;
-  height: 110px;
-  border: 2px solid #ffff;
-  float: left;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 19%;
+    height: 110px;
+    border: 2px solid #ffff;
+    float: left;
 }
 
 .avatar {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.8);
-  margin-left: 15px;
-  opacity: 1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    margin-left: 15px;
+    opacity: 1;
 }
 
 .username {
-  font-size: 1.8rem;
-  color: #1982c4;
-  margin-top: 13px;
-  margin-left: 90px;
-  margin-bottom: 12px;
-  position: absolute;
+    font-size: 1.8rem;
+    color: #1982c4;
+    margin-top: 13px;
+    margin-left: 90px;
+    margin-bottom: 12px;
+    position: absolute;
 }
 
 .all-chat-aside-content {
-  border: 0.2 solid white;
-  margin-left: 9vh;
+    border: 0.2 solid white;
+    margin-left: 9vh;
 }
 
 aside {
-  margin-top: -100vh;
-  width: 20%;
-  height: 100vh;
-  background-color: #3b3e49;
-  display: inline-block;
-  font-size: 15px;
-  vertical-align: top;
-  margin-left: 14vh;
-  margin-bottom: 13.5vh;
-  overflow: hidden;
-  border-top: 0.5px solid white;
-  border-right: 0.5px solid white;
-  border-bottom: 0.5px solid white;
+    margin-top: -100vh;
+    max-width: 40%;
+    height: 100vh;
+    background-color: #3b3e49;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+    margin-left: 6vh;
+    margin-bottom: 13.5vh;
+    overflow: hidden;
+    border-top: 0.5px solid white;
+    border-right: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    position: fixed;
 }
 
 main {
-  width: 80%;
-  height: 100%;
-  display: inline-block;
-  font-size: 15px;
-  vertical-align: top;
-  position: fixed;
+    max-width: 80%;
+    max-height: 100%;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+    position: fixed;
 }
 
 aside header {
-  padding: 30px 20px;
+    padding: 30px 20px;
 }
 
 aside input {
-  width: 100%;
-  height: 5vh;
-  line-height: 50px;
-  padding: 0 50px 0 20px;
-  background-color: #5e616a;
-  border: none;
-  border-radius: 20px;
-  color: #fff;
-  background-repeat: no-repeat;
-  background-position: 170px;
-  background-size: 40px;
+    width: 100%;
+    height: 5vh;
+    line-height: 50px;
+    padding: 0 50px 0 20px;
+    background-color: #5e616a;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: 170px;
+    background-size: 40px;
 }
 
 aside input::placeholder {
-  color: white;
+    color: white;
 }
 
 aside ul {
-  padding-left: 12;
-  margin: 0;
-  height: 82.5vh;
-  width: 45.3vh;
-  overflow-y: scroll;
+    padding-left: 12;
+    margin: 0;
+    height: 82.5vh;
+    width: 38vh;
+    overflow-y: scroll;
 }
 
+
 /*Scroll Bar */
+
 
 /* width */
 
 ::-webkit-scrollbar {
-  width: 13px;
+    width: 13px;
 }
+
 
 /* Track */
 
 ::-webkit-scrollbar-track {
-  background: transparent;
-  margin: 10px;
-  margin-bottom: 10px;
+    background: transparent;
+    margin: 10px;
+    margin-bottom: 10px;
 }
+
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
+    background: #888;
+    border-radius: 10px;
 }
+
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    background: #555;
 }
 
 aside li {
-  padding: 10px 0;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 aside li:hover {
-  background-color: #5e616a;
+    background-color: #5e616a;
 }
 
 h2,
 h3 {
-  margin: 0;
+    margin: 0;
 }
 
 aside li img {
-  border-radius: 50%;
-  margin-left: 20px;
-  margin-right: 8px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 8px;
 }
 
 aside li div {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
 }
 
 aside li h2 {
-  font-size: 14px;
-  color: #fff;
-  font-weight: normal;
-  margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 5px;
 }
 
 aside li h3 {
-  font-size: 12px;
-  color: #7e818a;
-  font-weight: normal;
+    font-size: 12px;
+    color: #7e818a;
+    font-weight: normal;
 }
 
 .status {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
 }
 
 .green {
-  background-color: #58b666;
+    background-color: #58b666;
 }
 
 .orange {
-  background-color: grey;
+    background-color: grey;
 }
 
 .blue {
-  background-color: #6fbced;
-  margin-right: 0;
-  margin-left: 7px;
+    background-color: #6fbced;
+    margin-right: 0;
+    margin-left: 7px;
 }
 
 .online {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 7px;
-  background-color: #58b666;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+    background-color: #58b666;
 }
 
 .offline {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 7px;
-  border-style: solid;
-  border-width: 1.5px;
-  border-color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: white;
 }
 
 .away {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 7px;
-  background-color: grey;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+    background-color: grey;
 }
 
 .chat-panel {
-  margin-left: 55.9vh;
-  border: 0.2vh solid white;
-  border-bottom: transparent;
-  margin-top: -0.2vh;
-  width: 150vh;
+    margin-left: 55.9vh;
+    border: 0.2vh solid white;
+    border-bottom: transparent;
+    margin-top: -0.2vh;
+    width: 150vh;
 }
 
 main header {
-  height: 15vh;
-  width: 151vh;
-  padding: 2.4% 41% 0% 4.3%;
-  margin-top: -97.3vh;
-  margin-left: 0vh;
-  /* margin-bottom: 2vh; */
-  position: fixed;
-  overflow: hidden;
-  display: block;
-  border: 0.5px solid white;
-  border-top: 0.5px solid white;
-  border-left: hidden;
+    height: 15vh;
+    width: 151vh;
+    padding: 2.4% 41% 0% 4.3%;
+    margin-top: -97.3vh;
+    margin-left: 0vh;
+    /* margin-bottom: 2vh; */
+    position: fixed;
+    overflow: hidden;
+    display: block;
+    border: 0.5px solid white;
+    border-top: 0.5px solid white;
+    border-left: hidden;
 }
 
-main header > * {
-  display: inline-block;
-  vertical-align: top;
+main header>* {
+    display: inline-block;
+    vertical-align: top;
 }
 
 main header img:first-child {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 main header img:last-child {
-  width: 24px;
-  margin-top: 8px;
+    width: 24px;
+    margin-top: 8px;
 }
 
 main header div {
-  margin-left: 10px;
-  margin-right: 145px;
+    margin-left: 10px;
+    margin-right: 145px;
 }
 
 main header h2 {
-  font-size: 16px;
-  margin-bottom: 5px;
-  color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #fff;
 }
 
 main header h3 {
-  font-size: 14px;
-  font-weight: normal;
-  color: #7e818a;
+    font-size: 14px;
+    font-weight: normal;
+    color: #7e818a;
 }
 
 #chat {
-  list-style-type: none;
-  overflow-y: scroll;
-  margin-left: 0vh;
-  margin-top: -82.5vh;
-  width: 151vh;
-  height: 72.6vh;
-  border-bottom: 0.5px solid white;
-  border-right: 0.5px solid white;
-  overflow: none;
-  position: fixed;
+    list-style-type: none;
+    overflow-y: scroll;
+    margin-left: 0vh;
+    margin-top: -82.5vh;
+    width: 151vh;
+    height: 72.6vh;
+    border-bottom: 0.5px solid white;
+    border-right: 0.5px solid white;
+    overflow: none;
+    position: fixed;
 }
 
 #chat li {
-  padding: 10px 30px;
+    padding: 10px 30px;
 }
 
 #chat h2,
 #chat h3 {
-  display: inline-block;
-  font-size: 13px;
-  font-weight: normal;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
 }
 
 #chat h3 {
-  color: #bbb;
+    color: #bbb;
 }
 
 #chat .entete {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 #chat .message {
-  padding: 20px;
-  color: #fff;
-  line-height: 25px;
-  max-width: 100%;
-  display: inline-block;
-  text-align: left;
-  border-radius: 50px;
+    padding: 20px;
+    color: #fff;
+    line-height: 25px;
+    max-width: 100%;
+    display: inline-block;
+    text-align: left;
+    border-radius: 50px;
 }
 
 #chat .me {
-  text-align: right;
+    text-align: right;
 }
 
 #chat .you .message {
-  background-color: #58b666;
+    background-color: #58b666;
 }
 
 #chat .me .message {
-  background-color: #6fbced;
+    background-color: #6fbced;
 }
 
 .chatname {
-  margin-top: 12px;
-  color: #fff;
+    margin-top: 12px;
+    color: #fff;
 }
 
 main footer {
-  height: 10vh;
-  width: 151vh;
-  padding: 20px 20px 20px 20px;
-  margin-left: -57vh;
-  margin-top: -10vh;
-  border: 0.5px solid white;
-  /* border-left: transparent;
+    height: 10vh;
+    width: 151vh;
+    padding: 20px 20px 20px 20px;
+    margin-left: -57vh;
+    margin-top: -10vh;
+    border: 0.5px solid white;
+    /* border-left: transparent;
   border-top: transparent; */
-  margin-left: 0vh;
-  position: relative;
+    margin-left: 0vh;
+    position: relative;
 }
 
 main footer input {
-  resize: none;
-  border: none;
-  display: block;
-  width: 85%;
-  height: 4%;
-  position: fixed;
-  border-radius: 30px;
-  padding: 20px;
-  font-size: 15px;
-  color: #fff;
-  margin-top: -6.6vh;
-  /* margin-bottom: 12vh; */
-  float: left;
-  background-color: #5e616a;
-  position: relative;
+    resize: none;
+    border: none;
+    display: block;
+    width: 85%;
+    height: 4%;
+    position: fixed;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: -6.6vh;
+    /* margin-bottom: 12vh; */
+    float: left;
+    background-color: #5e616a;
+    position: relative;
 }
 
 main footer input::placeholder {
-  color: black;
-  font-family: "Mingzat", sans-serif;
+    color: black;
+    font-family: "Mingzat", sans-serif;
 }
 
 main footer img {
-  height: 30px;
-  cursor: pointer;
-  /* margin-left: 50vh; */
+    height: 30px;
+    cursor: pointer;
+    /* margin-left: 50vh; */
 }
 
 .footer-img-1 {
-  margin-left: 127vh;
+    margin-left: 127vh;
 }
 
 .footer-tool-img {
-  margin-left: 130vh;
-  margin-top: 2vh;
+    margin-left: 130vh;
+    margin-top: 2vh;
 }
+
 
 /*/*Attendce With Dashboard*/
 
 * {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-family: "Mingzat", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Mingzat", sans-serif;
 }
 
 body {
-  background-color: #1a1a1a;
+    background-color: #1a1a1a;
 }
 
 nav {
-  @media screen and (min-width: 100%) {
-    body {
-      display: flex;
-      flex-direction: column;
-      max-width: 100%;
-      margin: auto;
+    @media screen and (min-width: 100%) {
+        body {
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            margin: auto;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            border-bottom: 0.5rem solid;
+        }
+        nav,
+        header {
+            order: -1;
+        }
+        article {
+            flex: 100%;
+        }
+        aside {
+            flex: 100%;
+        }
     }
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      box-sizing: border-box;
-      border-bottom: 0.5rem solid;
-    }
-    nav,
-    header {
-      order: -1;
-    }
-    article {
-      flex: 100%;
-    }
-    aside {
-      flex: 100%;
-    }
-  }
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  left: 0;
-  width: 90px;
-  background: #3b3e49;
-  overflow: hidden;
-  transition: 1s;
-  border-right: 0.4vh solid white;
-  margin-top: 10vh;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    width: 90px;
+    background: #3b3e49;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 0.4vh solid white;
+    margin-top: 10vh;
 }
 
 nav:hover {
-  width: 280px;
-  transition: 1s;
+    width: 280px;
+    transition: 1s;
 }
 
 .logo {
-  text-align: center;
-  display: flex;
-  margin: 10px 0 0 10px;
-  padding-bottom: 3rem;
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+    padding-bottom: 3rem;
 }
 
 .logo img {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
 }
 
 .logo span {
-  font-weight: bold;
-  padding-left: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 a {
-  position: relative;
-  width: 280px;
-  font-size: 14px;
-  color: rgb(85, 83, 83);
-  display: table;
-  padding: 10px;
+    position: relative;
+    width: 280px;
+    font-size: 14px;
+    color: rgb(85, 83, 83);
+    display: table;
+    padding: 10px;
 }
 
 nav .fas {
-  position: relative;
-  width: 70px;
-  height: 40px;
-  top: 20px;
-  font-size: 160%;
-  color: #fff;
-  text-align: center;
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 20px;
+    font-size: 160%;
+    color: #fff;
+    text-align: center;
 }
 
 .nav-item {
-  position: relative;
-  top: 12px;
-  margin-left: 10px;
-  color: #fff;
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    color: #fff;
 }
 
 .Admin-name {
-  position: relative;
-  top: 12px;
-  margin-left: 10px;
-  font-size: auto !important;
-  color: #fff;
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    font-size: auto !important;
+    color: #fff;
 }
 
 a:hover {
-  background: grey;
+    background: grey;
 }
 
 a:hover i {
-  color: #34af6d;
-  transition: 0.5s;
+    color: #34af6d;
+    transition: 0.5s;
 }
 
 .logout {
-  position: absolute;
-  bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .container {
-  display: flex;
-  width: 100%;
-  height: 100%;
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
+
 
 /* main-1 Section */
 
 .main-1 {
-  position: relative;
-  padding: 20px;
-  width: 100%;
+    position: relative;
+    padding: 20px;
+    width: 100%;
 }
 
 .main-1-top {
-  display: flex;
-  width: 100%;
+    display: flex;
+    width: 100%;
 }
 
 .main-1-top i {
-  position: absolute;
-  right: 0;
-  margin: 10px 30px;
-  color: rgb(110, 109, 109);
-  cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(110, 109, 109);
+    cursor: pointer;
 }
 
 .main-1 .users {
-  display: flex;
-  width: 100%;
+    display: flex;
+    width: 100%;
 }
+
 
 /* main-2 Section */
 
 .main-2-1 {
-  display: flex;
-  position: relative;
-  padding: 20px;
-  width: 100%;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    width: 100%;
 }
 
 .main-top-2 {
-  display: flex;
-  width: 100%;
+    display: flex;
+    width: 100%;
 }
 
 .main-2-top i {
-  position: relative;
-  right: 0;
-  margin: 10px 30px;
-  color: rgb(110, 109, 109);
-  cursor: pointer;
+    position: relative;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(110, 109, 109);
+    cursor: pointer;
 }
 
 .grade {
-  font-size: 20px;
-  color: #fff;
-  font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .main-2 .users {
-  display: flex;
-  width: 100%;
+    display: flex;
+    width: 100%;
 }
+
 
 /* main-3 Section */
 
 .main-3-1 {
-  display: flex;
-  position: relative;
-  width: 100%;
-  margin: 20px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 20px;
 }
 
 .main-top-3 {
-  display: flex;
-  width: 100%;
+    display: flex;
+    width: 100%;
 }
 
 .main-3-top i {
-  position: relative;
-  right: 0;
-  margin: 10px 30px;
-  color: rgb(110, 109, 109);
-  cursor: pointer;
+    position: relative;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(110, 109, 109);
+    cursor: pointer;
 }
 
 .main-3 .users {
-  display: flex;
-  width: 160%;
+    display: flex;
+    width: 160%;
 }
 
 .attendence {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
 }
 
 .users {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .atten-name {
-  margin: 0;
+    margin: 0;
 }
 
 .users .card {
-  width: 13.5%;
-  margin: 10px;
-  background: #3b3e49;
-  text-align: center;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  border: 2px solid #fff;
+    width: 13.5%;
+    margin: 10px;
+    background: #3b3e49;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
 }
 
 .users .card img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
 
 .users .card h4 {
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 .users .card p {
-  font-size: 12px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .users table {
-  margin: auto;
+    margin: auto;
 }
 
 .users .per span {
-  padding: 5px;
-  border-radius: 10px;
-  background: #2f3136;
-  font-size: 1.2rem;
-  color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    background: #2f3136;
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 .users td {
-  font-size: 14px;
-  padding-right: 15px;
-  font-size: 1.2rem;
-  color: #fff;
+    font-size: 14px;
+    padding-right: 15px;
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 .users .card button {
-  width: 100%;
-  margin-top: 8px;
-  padding: 7px;
-  cursor: pointer;
-  border-radius: 10px;
-  background: transparent;
-  border: 2px solid #4ad489;
-  font-size: 1rem;
-  color: #4ad489;
+    width: 100%;
+    margin-top: 8px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #4ad489;
+    font-size: 1rem;
+    color: #4ad489;
 }
 
 .users .card button:hover {
-  background: #4ad489;
-  color: #fff;
-  transition: 0.5s;
+    background: #4ad489;
+    color: #fff;
+    transition: 0.5s;
 }
+
 
 /*Attendance List serction  */
 
 .attendance {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-transform: capitalize;
-  font-size: 1.2rem;
-  text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .attendance-list {
-  width: 100%;
-  margin-top: 10px;
-  background: #3b3e49;
-  border-radius: 10px;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  margin-left: 22%;
+    width: 100%;
+    margin-top: 10px;
+    background: #3b3e49;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    margin-left: 22%;
 }
 
 .table {
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 15px;
-  min-width: 100%;
-  overflow: hidden;
-  border-radius: 5px 5px 0 0;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
 }
 
 table thead tr {
-  color: #fff;
-  background: #34af6d;
-  text-align: left;
-  font-weight: bold;
+    color: #fff;
+    background: #34af6d;
+    text-align: left;
+    font-weight: bold;
 }
 
 .table th,
 .table td {
-  padding: 12px 15px;
+    padding: 12px 15px;
 }
 
 .table tbody tr {
-  border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .table tbody tr:nth-of-type(odd) {
-  background: #3b3e49;
+    background: #3b3e49;
 }
 
 .table tbody tr.active {
-  font-weight: bold;
-  color: #4ad489;
+    font-weight: bold;
+    color: #4ad489;
 }
 
 .table tbody tr:last-of-type {
-  border-bottom: 2px solid #3b3e49;
+    border-bottom: 2px solid #3b3e49;
 }
 
 .table button {
-  padding: 6px 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #4ad489;
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #4ad489;
 }
 
 .table button:hover {
-  background: #4ad489;
-  color: #fff;
-  transition: 0.5rem;
+    background: #4ad489;
+    color: #fff;
+    transition: 0.5rem;
 }
