@@ -239,7 +239,7 @@ aside {
     display: inline-block;
     font-size: 15px;
     vertical-align: top;
-    margin-left: 2vh;
+    margin-left: 3.1vh;
     margin-bottom: 13.5vh;
     overflow: hidden;
     border-top: 0.5px solid white;
@@ -532,31 +532,31 @@ main footer {
     height: 10vh;
     width: 151vh;
     padding: 20px 20px 20px 20px;
-    margin-left: -58vh;
+    margin-left: -57vh;
     margin-top: -10vh;
     border: 0.5px solid white;
     /* border-left: transparent;
   border-top: transparent; */
     margin-left: 0vh;
-    position: fixed;
+    position: relative;
 }
 
 main footer input {
     resize: none;
     border: none;
     display: block;
-    width: 59%;
+    width: 85%;
     height: 4%;
     position: fixed;
     border-radius: 30px;
     padding: 20px;
     font-size: 15px;
     color: #fff;
-    margin-top: -5.8vh;
+    margin-top: -6.6vh;
     /* margin-bottom: 12vh; */
     float: left;
     background-color: #5e616a;
-    position: fixed;
+    position: relative;
 }
 
 main footer input::placeholder {
