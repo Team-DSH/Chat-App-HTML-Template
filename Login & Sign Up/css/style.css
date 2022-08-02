@@ -235,18 +235,18 @@ h1 {
 
 aside {
     margin-top: -100vh;
-    max-width: 40%;
+    max-width: 46%;
     height: 100vh;
     background-color: #3b3e49;
     display: inline-block;
     font-size: 15px;
     vertical-align: top;
-    margin-left: 6vh;
+    margin-left: 4vh;
     margin-bottom: 13.5vh;
     overflow: hidden;
-    border-top: 0.5px solid white;
-    border-right: 0.5px solid white;
-    border-bottom: 0.5px solid white;
+    border-top: 0.2vh solid white;
+    border-right: 0.2vh solid white;
+    border-bottom: 0.2vh solid white;
     position: fixed;
 }
 
@@ -285,7 +285,7 @@ aside ul {
     padding-left: 12;
     margin: 0;
     height: 82.5vh;
-    width: 38vh;
+    width: 41vh;
     overflow-y: scroll;
 }
 
@@ -417,7 +417,7 @@ aside li h3 {
 }
 
 .chat-panel {
-    margin-left: 55.9vh;
+    margin-left: 54vh;
     border: 0.2vh solid white;
     border-bottom: transparent;
     margin-top: -0.2vh;
