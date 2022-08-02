@@ -247,7 +247,7 @@ aside {
     border-top: 0.2vh solid white;
     border-right: 0.2vh solid white;
     border-bottom: 0.2vh solid white;
-    position: fixed;
+    position: relative;
 }
 
 main {
@@ -422,21 +422,18 @@ aside li h3 {
     border-bottom: transparent;
     margin-top: -0.2vh;
     width: 150vh;
+    position: relative;
 }
 
 main header {
-    height: 15vh;
+    height: 15.5vh;
     width: 151vh;
     padding: 2.4% 41% 0% 4.3%;
-    margin-top: -97.3vh;
+    margin-top: -111.5vh;
     margin-left: 0vh;
-    /* margin-bottom: 2vh; */
-    position: fixed;
-    overflow: hidden;
-    display: block;
+    position: relative;
     border: 0.5px solid white;
-    border-top: 0.5px solid white;
-    border-left: hidden;
+    border-left: transparent;
 }
 
 main header>* {
@@ -474,13 +471,13 @@ main header h3 {
     list-style-type: none;
     overflow-y: scroll;
     margin-left: 0vh;
-    margin-top: -82.5vh;
+    margin-top: hidden;
     width: 151vh;
     height: 72.6vh;
     border-bottom: 0.5px solid white;
     border-right: 0.5px solid white;
     overflow: none;
-    position: fixed;
+    position: relative;
 }
 
 #chat li {
@@ -534,7 +531,7 @@ main footer {
     width: 151vh;
     padding: 20px 20px 20px 20px;
     margin-left: -57vh;
-    margin-top: -10vh;
+    margin-top: hidden;
     border: 0.5px solid white;
     /* border-left: transparent;
   border-top: transparent; */
