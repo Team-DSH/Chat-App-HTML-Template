@@ -16,7 +16,7 @@ nav {
   position: sticky;
   margin-top: 0vh;
   bottom: 0;
-  height: 97.3vh;
+  height: 100vh;
   left: 0;
   width: 90px;
   background: #3b3e49;
@@ -52,7 +52,7 @@ nav:hover {
 }
 
 a {
-  position: relative;
+  /* position: relative; */
   width: 280px;
   font-size: 14px;
   color: rgb(85, 83, 83);
@@ -61,7 +61,7 @@ a {
 }
 
 nav .fas {
-  position: relative;
+  /* position: relative; */
   width: 70px;
   height: 40px;
   top: 20px;
@@ -71,14 +71,14 @@ nav .fas {
 }
 
 .nav-item {
-  position: relative;
+  /* position: relative; */
   top: 12px;
   margin-left: 10px;
   color: #fff;
 }
 
 .Admin-name {
-  position: relative;
+  /* position: relative; */
   top: 12px;
   margin-left: 10px;
   font-size: auto !important;

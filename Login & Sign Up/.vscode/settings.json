@@ -4,5 +4,6 @@
   "[html]": {
     "editor.defaultFormatter": "NikolaosGeorgiou.html-fmt-vscode"
   },
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "livePreview.defaultPreviewPath": "/Chat App/Admin.html"
 }
